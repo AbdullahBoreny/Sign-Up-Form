@@ -4,60 +4,68 @@
 <head>
     <meta charset="UTF-8">
 
+
+
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=Rouge+Script&family=Skranji:wght@400;700&display=swap"
         rel="stylesheet">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="left-content">
-        <div class="black-overlay">
-            <img src="odin-lined.png" alt="">
-            <div class="odin-word">Boreny</div>
-        </div>
-
-    </div>
-    <div class="right-content">
-        <div class="top">
-            <div class="description">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam maxime consequuntur non eos harum,
-                magnam facilis consequatur officia esse, animi ullam. Ullam expedita soluta laboriosam quidem
-                voluptatibus. Suscipit, quam nam.
+    <div class="root">
+        <div class="left-content">
+            <div class="black-overlay">
+                <img src="odin-lined.png" alt="">
+                <div class="odin-word">Boreny</div>
             </div>
+
         </div>
-        <div class="sign-form">
-            <div class="form-header">Let's do this!
+        <div class="right-content">
+            <div class="top">
+                <div class="description">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam maxime consequuntur non eos
+                    harum,
+                    magnam facilis consequatur officia esse, animi ullam. Ullam expedita soluta laboriosam quidem
+                    voluptatibus. Suscipit, quam nam.
+                </div>
+            </div>
+            <div class="middle-section ">
+                <div class="form-header">Let's do this!</div>
+                <div class="form">
+                    <div class="left-form">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text">
+                        <label for="email">EMAIL</label>
+                        <input type="email">
+                        <label for="password1">PASSWORD</label>
+                        <input type="password">
+
+                    </div>
+                    <div class="right-form">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password">
+                    </div>
+                </div>
+
+
 
             </div>
-                <div class="left-form">
-                    <label for="fname">FIRST NAME</label>
-                    <input type="text">
-                    <label for="email">EMAIL</label>
-                    <input type="email">
-                    <label for="password1">PASSWORD</label>
-                    <input type="password">
 
-                </div>
-                <div class="right-form">
-                    <label for="lname">LAST NAME</label>
-                    <input type="text">
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="number">
-                    <label for="cpassword">CONFIRM PASSWORD</label>
-                    <input type="password">
-                </div>
+            <div class="bottom-section">
+                <button class="sign-button">Create an account</button>
+                <div>already have an account? 
+                    <a href="">Log in</a></div>
 
-
-        </div>
-
-        <div class="bottom-section">
-            <button class="sign-button">Create an account</button>
-             <div>already have an account? <a href="">Log in</a></div>
-           
+            </div>
         </div>
     </div>
 </body>
